@@ -10,6 +10,7 @@ target_link_libraries(example
   ${OPENGL_LIBRARIES})
 add_dependencies(example glfw nanovg ${COPY_BINARY})
 
+
 # Build tests
 add_executable(tests
   tests.cpp)
@@ -17,3 +18,9 @@ target_link_libraries(tests
   ${GLFW_LIBRARIES})
 
 
+
+# Build vec2
+add_executable(VEC2
+  vec2.cpp)
+target_link_libraries(tests
+  ${GLFW_LIBRARIES})
