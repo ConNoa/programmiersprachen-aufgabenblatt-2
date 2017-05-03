@@ -7,3 +7,9 @@ Vec2::Vec2()
  Vec2::Vec2(float x_,float y_)
   : x{x_}, y{y_}
  {}
+
+ Vec2& Vec2::operator+=(Vec2 const& v)
+	{
+		x += v.x;
+		y += v.y;
+	}
