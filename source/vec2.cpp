@@ -13,3 +13,23 @@ Vec2::Vec2()
 		x += v.x;
 		y += v.y;
 	}
+
+ Vec2& Vec2::operator-=(Vec2 const& v)
+	{
+		x -= v.x;
+		y -= v.y;
+	}
+
+ Vec2& Vec2::operator*=(float s)
+	{
+		x *= s;
+		y *= s;
+	}
+	
+ Vec2& Vec2::operator/=(float s)
+	{
+		x /= s;
+		y /= s;
+	}
+
+
