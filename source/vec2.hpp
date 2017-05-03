@@ -5,9 +5,15 @@
 struct Vec2
 {
 	//TODO Constructors
+	Vec2();
+	Vec2(float x_,float y_);
+
 
 	float x;
 	float y;
+
+
+
 };
 
 #endif 	//VEC2_HPP
