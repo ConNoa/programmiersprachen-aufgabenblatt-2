@@ -100,22 +100,114 @@ TEST_CASE("operator + soll getestet werden_1")
 	Vec2 v{2.0f, -3.0f};
 	Vec2 z{4.0f, 5.0f};
 	
-	Vec2 defa (v+z);
-	REQUIRE(defa.x == 6.0f);
-	REQUIRE(defa.y == 2.0f);
+	Vec2 c (v+z);
+	REQUIRE(c.x == 6.0f);
+	REQUIRE(c.y == 2.0f);
 }
 
 TEST_CASE("operator + soll getestet werden_2")
 {
 	Vec2 v{2.0f, -3.0f};
 	Vec2 z{-2.0f, 3.0f};
-	Vec2 defa (v+z);
-	REQUIRE(defa.x == 0.0f);
-	REQUIRE(defa.y == 0.0f);
+	Vec2 c (v+z);
+	REQUIRE(c.x == 0.0f);
+	REQUIRE(c.y == 0.0f);
+}
+
+TEST_CASE("operator - soll getestet werden_1")
+{
+	Vec2 v{2.0f, -3.0f};
+	Vec2 z{4.0f, 5.0f};
+	Vec2 c (v-z);
+	REQUIRE(c.x == -2.0f);
+	REQUIRE(c.y == -8.0f);
+}
+
+TEST_CASE("operator - soll getestet werden_2")
+{
+	Vec2 v{2.0f, -3.0f};
+	Vec2 z{-2.0f, 3.0f};
+	Vec2 c (v-z);
+
+	REQUIRE(c.x == 4.0f);
+	REQUIRE(c.y == -6.0f);
+}
+
+TEST_CASE("operator * soll getestet werden_1")
+{
+	Vec2 v{2.0f, 4.0f};
+	Vec2 z{-2.0f, 9.0f};
+	float g = 10;
+	v=v*g;
+	z=z*g;
+	REQUIRE(v.x == 20.0f);
+	REQUIRE(v.y == 40.0f);
+	REQUIRE(z.x == -20.0f);
+	REQUIRE(z.y == 90.0f);
+}
+TEST_CASE("operator * soll getestet werden_2")
+{
+	Vec2 v{5.0f, 8.0f};
+	Vec2 z{-6.0f, 3.0f};
+	float f = 11;
+	v=v*f;
+	z=z*f;
+	REQUIRE(v.x == 55.0f);
+	REQUIRE(v.y == 88.0f);
+	REQUIRE(z.x == -66.0f);
+	REQUIRE(z.y == 33.0f);
 }
 
 
+TEST_CASE("operator / soll getestet werden_1")
+{
+	Vec2 v{2.0f, 4.0f};
+	Vec2 z{-2.0f, 9.0f};
+	float g = 2;
+	v=v/g;
+	z=z/g;
+	REQUIRE(v.x == 1.0f);
+	REQUIRE(v.y == 2.0f);
+	REQUIRE(z.x == -1.0f);
+	REQUIRE(z.y == 4.5f);
+}
+TEST_CASE("operator / soll getestet werden_2")
+{
+	Vec2 v{5.0f, 8.0f};
+	Vec2 z{-6.0f, 3.0f};
+	float f = 0.5;
+	v=v/f;
+	z=z/f;
+	REQUIRE(v.x == 10.0f);
+	REQUIRE(v.y == 16.0f);
+	REQUIRE(z.x == -12.0f);
+	REQUIRE(z.y == 6.0f);
+}
 
+TEST_CASE("operator * soll getestet werden mit floats vorne_1")
+{
+	Vec2 v{2.0f, 4.0f};
+	Vec2 z{-2.0f, 9.0f};
+	float g = 10;
+	v=g*v;
+	z=g*z;
+	REQUIRE(v.x == 20.0f);
+	REQUIRE(v.y == 40.0f);
+	REQUIRE(z.x == -20.0f);
+	REQUIRE(z.y == 90.0f);
+}
+TEST_CASE("operator * soll getestet werden mit floats vorne_2")
+{
+	Vec2 v{5.0f, 8.0f};
+	Vec2 z{-6.0f, 3.0f};
+	float f = 11;
+	v=f*v;
+	z=f*z;
+	REQUIRE(v.x == 55.0f);
+	REQUIRE(v.y == 88.0f);
+	REQUIRE(z.x == -66.0f);
+	REQUIRE(z.y == 33.0f);
+}
 
 int main(int argc, char *argv[])
 {

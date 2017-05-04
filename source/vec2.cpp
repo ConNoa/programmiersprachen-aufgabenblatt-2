@@ -42,5 +42,25 @@ Vec2 const operator+(Vec2 const& u, Vec2 const& v)
 		
 	}
 
+Vec2 const operator-(Vec2 const& u, Vec2 const& v)
+	{
+		return Vec2(u) -= v;
+		
+	}
 
+Vec2 const operator*(Vec2 const& v, float s)
+	{
+		return Vec2(v) *= s;
+	}
+
+
+Vec2 const operator/(Vec2 const& v, float s)
+	{
+		return Vec2(v) /= s;
+	}
+
+Vec2 const operator*(float s, Vec2 const& v)
+	{
+		return Vec2(v) *= s;
+	}
 
