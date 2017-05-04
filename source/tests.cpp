@@ -17,6 +17,9 @@ TEST_CASE("konstruktor, der x und y übergeben bekommt")
 	REQUIRE(v.y == -3.0f);
 }
 
+
+//Aufgabe 2.3
+
 TEST_CASE("operator += soll getestet werden_1")
 {
 	Vec2 v{2.0f, -3.0f};
@@ -89,6 +92,27 @@ TEST_CASE("operator /= soll getestet werden_2")
 	REQUIRE(v.y == -2.0f);
 }
 
+
+// Aufgabe 2.4
+
+TEST_CASE("operator + soll getestet werden_1")
+{
+	Vec2 v{2.0f, -3.0f};
+	Vec2 z{4.0f, 5.0f};
+	
+	Vec2 defa (v+z);
+	REQUIRE(defa.x == 6.0f);
+	REQUIRE(defa.y == 2.0f);
+}
+
+TEST_CASE("operator + soll getestet werden_2")
+{
+	Vec2 v{2.0f, -3.0f};
+	Vec2 z{-2.0f, 3.0f};
+	Vec2 defa (v+z);
+	REQUIRE(defa.x == 0.0f);
+	REQUIRE(defa.y == 0.0f);
+}
 
 
 
