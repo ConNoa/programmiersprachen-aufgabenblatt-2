@@ -227,7 +227,7 @@ TEST_CASE("mat2 operator* soll getestet werden_1")
 	REQUIRE(v.x22 == 11.0f);
 }
 
-TEST_CASE("mat2 operator*= soll getestet werden_2.")
+TEST_CASE("mat2 operator*= soll getestet werden_1")
 {
 	Mat2 v{	2.0f, 4.0f, 
 			1.0f, 3.0f};
@@ -240,6 +240,34 @@ TEST_CASE("mat2 operator*= soll getestet werden_2.")
 	REQUIRE(v.x12 == 18.0f);
 	REQUIRE(v.x21 == 9.0f);
 	REQUIRE(v.x22 == 11.0f);
+}
+TEST_CASE("mat2 operator* soll getestet werden_2")
+{
+	Mat2 v{	30.0f, 50.0f, 
+			25.0f, 40.0f};
+
+	Mat2 z{	2.0f, 3.0f, 
+			1.0f, 1.0f};
+	v=v*z;
+	REQUIRE(v.x11 == 110.0f);
+	REQUIRE(v.x12 == 140.0f);
+	REQUIRE(v.x21 == 90.0f);
+	REQUIRE(v.x22 == 115.0f);
+}
+
+TEST_CASE("mat2 operator*= soll getestet werden_2")
+{
+	Mat2 v{	30.0f, 50.0f, 
+			25.0f, 40.0f};
+
+	Mat2 z{	2.0f, 3.0f, 
+			1.0f, 1.0f};
+	v*=z;
+	
+	REQUIRE(v.x11 == 110.0f);
+	REQUIRE(v.x12 == 140.0f);
+	REQUIRE(v.x21 == 90.0f);
+	REQUIRE(v.x22 == 115.0f);
 }
 
 
