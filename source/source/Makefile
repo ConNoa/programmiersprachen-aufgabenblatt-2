@@ -140,6 +140,36 @@ example/fast:
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
 .PHONY : example/fast
 
+circle.o: circle.cpp.o
+
+.PHONY : circle.o
+
+# target to build an object file
+circle.cpp.o:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.o
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.o
+.PHONY : circle.cpp.o
+
+circle.i: circle.cpp.i
+
+.PHONY : circle.i
+
+# target to preprocess a source file
+circle.cpp.i:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.i
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.i
+.PHONY : circle.cpp.i
+
+circle.s: circle.cpp.s
+
+.PHONY : circle.s
+
+# target to generate assembly for a file
+circle.cpp.s:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.s
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.s
+.PHONY : circle.cpp.s
+
 example.o: example.cpp.o
 
 .PHONY : example.o
@@ -223,6 +253,36 @@ mat2.cpp.s:
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.s
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.s
 .PHONY : mat2.cpp.s
+
+rectangle.o: rectangle.cpp.o
+
+.PHONY : rectangle.o
+
+# target to build an object file
+rectangle.cpp.o:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.o
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.o
+.PHONY : rectangle.cpp.o
+
+rectangle.i: rectangle.cpp.i
+
+.PHONY : rectangle.i
+
+# target to preprocess a source file
+rectangle.cpp.i:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.i
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.i
+.PHONY : rectangle.cpp.i
+
+rectangle.s: rectangle.cpp.s
+
+.PHONY : rectangle.s
+
+# target to generate assembly for a file
+rectangle.cpp.s:
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.s
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.s
+.PHONY : rectangle.cpp.s
 
 tests.o: tests.cpp.o
 
@@ -318,6 +378,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... tests"
 	@echo "... example"
+	@echo "... circle.o"
+	@echo "... circle.i"
+	@echo "... circle.s"
 	@echo "... example.o"
 	@echo "... example.i"
 	@echo "... example.s"
@@ -327,6 +390,9 @@ help:
 	@echo "... mat2.o"
 	@echo "... mat2.i"
 	@echo "... mat2.s"
+	@echo "... rectangle.o"
+	@echo "... rectangle.i"
+	@echo "... rectangle.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"

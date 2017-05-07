@@ -92,6 +92,14 @@ math.h
 nanovg.h
 ../external/nanovg/src/nanovg.h
 
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/circle.cpp
+circle.hpp
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/circle.hpp
+
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/circle.hpp
+vec2.hpp
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
+
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/example.cpp
 window.hpp
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/window.hpp
@@ -113,6 +121,14 @@ cmath
 -
 
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/mat2.hpp
+vec2.hpp
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
+
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp
+rectangle.hpp
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/rectangle.hpp
+
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/rectangle.hpp
 vec2.hpp
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
 

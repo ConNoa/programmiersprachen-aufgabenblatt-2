@@ -2,6 +2,8 @@
 #include <catch.hpp>
 #include "vec2.hpp"
 #include "mat2.hpp"
+#include "rectangle.hpp"
+#include "circle.hpp"
 
 
 
@@ -384,6 +386,51 @@ TEST_CASE("mat2 make rotation soll getestet werden")
 	REQUIRE(m2.x21 == Approx(0.84147f));
 	REQUIRE(m2.x22 == Approx(0.5403f));
 }
+
+TEST_CASE("Rectangle getter-Konstruktor Test_1")
+{
+	Vec2 z{-2.0f, 9.0f};
+	Vec2 y{6.0f, 15.0f};
+	Rectangle rec(z, y);
+	REQUIRE(rec.get_min_x() == Approx(-2.0f));
+	REQUIRE(rec.get_min_y() == Approx(9.0f));
+	REQUIRE(rec.get_max_x() == Approx(6.0f));
+	REQUIRE(rec.get_max_y() == Approx(15.0f));
+}
+
+TEST_CASE("Rectangle getter-Konstruktor Test_2")
+{
+	Vec2 z{-12.0f, 91.0f};
+	Vec2 y{61.0f, 151.0f};
+	Rectangle rec(z, y);
+	REQUIRE(rec.get_min_x() == Approx(-12.0f));
+	REQUIRE(rec.get_min_y() == Approx(91.0f));
+	REQUIRE(rec.get_max_x() == Approx(61.0f));
+	REQUIRE(rec.get_max_y() == Approx(151.0f));
+}
+
+TEST_CASE("Circle getter-Konstruktor Test_1")
+{
+	Vec2 z{-2.0f, 9.0f};
+	float y = 6.0f;
+	Circle circ(z, y);
+	REQUIRE(circ.get_radius() == Approx(6.0f));
+	REQUIRE(circ.get_x() == Approx(-2.0f));
+	REQUIRE(circ.get_y() == Approx(9.0f));
+	
+}
+
+TEST_CASE("Circle getter-Konstruktor Test_2")
+{
+	Vec2 x{-12.0f, 91.0f};
+	float y = 1.0f;
+	Circle circyli(x, y);
+	REQUIRE(circyli.get_radius() == Approx(1.0f));
+	REQUIRE(circyli.get_x() == Approx(-12.0f));
+	REQUIRE(circyli.get_y() == Approx(91.0f));
+}
+
+
 
 int main(int argc, char *argv[])
 {

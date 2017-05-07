@@ -153,9 +153,57 @@ source/CMakeFiles/example.dir/mat2.cpp.o.provides: source/CMakeFiles/example.dir
 source/CMakeFiles/example.dir/mat2.cpp.o.provides.build: source/CMakeFiles/example.dir/mat2.cpp.o
 
 
+source/CMakeFiles/example.dir/rectangle.cpp.o: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/rectangle.cpp.o: rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/example.dir/rectangle.cpp.o"
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/source && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/rectangle.cpp.o -c /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp
+
+source/CMakeFiles/example.dir/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/rectangle.cpp.i"
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp > CMakeFiles/example.dir/rectangle.cpp.i
+
+source/CMakeFiles/example.dir/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/rectangle.cpp.s"
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp -o CMakeFiles/example.dir/rectangle.cpp.s
+
+source/CMakeFiles/example.dir/rectangle.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/example.dir/rectangle.cpp.o.requires
+
+source/CMakeFiles/example.dir/rectangle.cpp.o.provides: source/CMakeFiles/example.dir/rectangle.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.o.provides.build
+.PHONY : source/CMakeFiles/example.dir/rectangle.cpp.o.provides
+
+source/CMakeFiles/example.dir/rectangle.cpp.o.provides.build: source/CMakeFiles/example.dir/rectangle.cpp.o
+
+
+source/CMakeFiles/example.dir/circle.cpp.o: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/circle.cpp.o: circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/example.dir/circle.cpp.o"
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/source && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/circle.cpp.o -c /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/circle.cpp
+
+source/CMakeFiles/example.dir/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/circle.cpp.i"
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/circle.cpp > CMakeFiles/example.dir/circle.cpp.i
+
+source/CMakeFiles/example.dir/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/circle.cpp.s"
+	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/circle.cpp -o CMakeFiles/example.dir/circle.cpp.s
+
+source/CMakeFiles/example.dir/circle.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/example.dir/circle.cpp.o.requires
+
+source/CMakeFiles/example.dir/circle.cpp.o.provides: source/CMakeFiles/example.dir/circle.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.o.provides.build
+.PHONY : source/CMakeFiles/example.dir/circle.cpp.o.provides
+
+source/CMakeFiles/example.dir/circle.cpp.o.provides.build: source/CMakeFiles/example.dir/circle.cpp.o
+
+
 source/CMakeFiles/example.dir/example.cpp.o: source/CMakeFiles/example.dir/flags.make
 source/CMakeFiles/example.dir/example.cpp.o: example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/example.dir/example.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/example.dir/example.cpp.o"
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/source && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/example.cpp.o -c /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/example.cpp
 
 source/CMakeFiles/example.dir/example.cpp.i: cmake_force
@@ -183,6 +231,8 @@ example_OBJECTS = \
 "CMakeFiles/example.dir/glew.c.o" \
 "CMakeFiles/example.dir/vec2.cpp.o" \
 "CMakeFiles/example.dir/mat2.cpp.o" \
+"CMakeFiles/example.dir/rectangle.cpp.o" \
+"CMakeFiles/example.dir/circle.cpp.o" \
 "CMakeFiles/example.dir/example.cpp.o"
 
 # External object files for target example
@@ -192,12 +242,14 @@ source/example: source/CMakeFiles/example.dir/window.cpp.o
 source/example: source/CMakeFiles/example.dir/glew.c.o
 source/example: source/CMakeFiles/example.dir/vec2.cpp.o
 source/example: source/CMakeFiles/example.dir/mat2.cpp.o
+source/example: source/CMakeFiles/example.dir/rectangle.cpp.o
+source/example: source/CMakeFiles/example.dir/circle.cpp.o
 source/example: source/CMakeFiles/example.dir/example.cpp.o
 source/example: source/CMakeFiles/example.dir/build.make
 source/example: external/glfw-3.2.1/src/libglfw3.a
 source/example: libnanovg.a
 source/example: source/CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable example"
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -209,6 +261,8 @@ source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/window.cpp
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/glew.c.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/vec2.cpp.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/mat2.cpp.o.requires
+source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/rectangle.cpp.o.requires
+source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/circle.cpp.o.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/example.cpp.o.requires
 
 .PHONY : source/CMakeFiles/example.dir/requires
