@@ -41,3 +41,10 @@ Rectangle::Rectangle(Vec2 const& min_in, Vec2 const& max_in, Color const& color_
 		
 		return ((2*(max_.x-min_.x))+(2*(max_.y-min_.y)));
 	}
+
+
+	Color const& Rectangle::get_color()
+	{
+
+		return color_;
+	}

@@ -16,6 +16,8 @@ class Rectangle
 	float get_max_x() const;
 	float get_max_y() const;
 	float circumreference() const;
+	Color const& 	get_color();
+
 
 	private: 
 

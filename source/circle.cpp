@@ -28,8 +28,15 @@ Circle::Circle(Vec2 const& middle_in, float const& radius_in, Color const& color
 		return middle.y;
 	}
 
+
 	float	Circle::circumreference() const
 	{
 
 		return (2*M_PI*radius);
+	}
+
+	Color const& Circle::get_color()
+	{
+
+		return color_;
 	}

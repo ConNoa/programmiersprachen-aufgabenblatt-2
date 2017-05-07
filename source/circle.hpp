@@ -17,6 +17,7 @@ class Circle
 	float  	get_x() const;
 	float  	get_y() const;
 	float	circumreference() const;
+	Color const& 	get_color();
 
 	private:
 
