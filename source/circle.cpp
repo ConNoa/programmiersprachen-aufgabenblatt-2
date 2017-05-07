@@ -1,9 +1,15 @@
 #include "circle.hpp"	
+//#include "color.hpp"
 #include <cmath>
 
 Circle::Circle(Vec2 const& middle_in, float const& radius_in):
 	middle{middle_in}, 
 	radius{radius_in}
+	{}
+Circle::Circle(Vec2 const& middle_in, float const& radius_in, Color const& color_in):
+	middle{middle_in}, 
+	radius{radius_in}, 
+	color_{color_in}
 	{}
 
 
@@ -24,6 +30,6 @@ Circle::Circle(Vec2 const& middle_in, float const& radius_in):
 
 	float	Circle::circumreference() const
 	{
-		
+
 		return (2*M_PI*radius);
 	}

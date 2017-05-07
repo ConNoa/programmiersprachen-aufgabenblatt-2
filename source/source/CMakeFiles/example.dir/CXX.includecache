@@ -101,6 +101,10 @@ cmath
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/circle.hpp
 vec2.hpp
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
+color.hpp
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/color.hpp
+
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/color.hpp
 
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/example.cpp
 window.hpp
@@ -135,6 +139,8 @@ cmath
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/rectangle.hpp
 vec2.hpp
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
+color.hpp
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/color.hpp
 
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.cpp
 vec2.hpp

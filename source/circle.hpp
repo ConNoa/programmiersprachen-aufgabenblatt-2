@@ -1,6 +1,7 @@
 #ifndef CIRCLE_HPP
 #define CIRCLE_HPP
 #include "vec2.hpp"
+#include "color.hpp"
 
 class Circle
 {	
@@ -8,6 +9,7 @@ class Circle
 
 	Circle();
 	Circle(Vec2 const& middle_in, float const& radius_in);
+	Circle(Vec2 const& middle_in, float const& radius_in, Color const& color_in);
 
 	
 
@@ -20,6 +22,7 @@ class Circle
 
 	Vec2 middle;
 	float radius;
+	Color color_;
 	
 };
 #endif

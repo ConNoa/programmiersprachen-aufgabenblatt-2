@@ -3,7 +3,14 @@
 
 
 Rectangle::Rectangle(Vec2 const& min_in, Vec2 const& max_in)
-	: min_{min_in}, max_{max_in}
+	: 	min_{min_in}, 
+		max_{max_in}
+	{}
+
+Rectangle::Rectangle(Vec2 const& min_in, Vec2 const& max_in, Color const& color_in)
+	: 	min_{min_in}, 
+		max_{max_in}, 
+		color_{color_in}
 	{}
 
 
@@ -26,6 +33,8 @@ Rectangle::Rectangle(Vec2 const& min_in, Vec2 const& max_in)
 	{
 		return max_.y;
 	}
+
+
 
 	float	Rectangle::circumreference() const
 	{

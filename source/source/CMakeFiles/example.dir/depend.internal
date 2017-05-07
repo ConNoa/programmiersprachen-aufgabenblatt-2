@@ -9,6 +9,7 @@ source/CMakeFiles/example.dir/glew.c.o
 source/CMakeFiles/example.dir/circle.cpp.o
  /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/circle.cpp
  /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/circle.hpp
+ /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/color.hpp
  /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
 source/CMakeFiles/example.dir/example.cpp.o
  ../external/GL/glext.h
@@ -21,6 +22,7 @@ source/CMakeFiles/example.dir/mat2.cpp.o
  /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/mat2.hpp
  /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
 source/CMakeFiles/example.dir/rectangle.cpp.o
+ /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/color.hpp
  /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp
  /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/rectangle.hpp
  /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.hpp

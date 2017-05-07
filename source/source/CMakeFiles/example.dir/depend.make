@@ -8,6 +8,7 @@ source/CMakeFiles/example.dir/glew.c.o: glew.c
 
 source/CMakeFiles/example.dir/circle.cpp.o: circle.cpp
 source/CMakeFiles/example.dir/circle.cpp.o: circle.hpp
+source/CMakeFiles/example.dir/circle.cpp.o: color.hpp
 source/CMakeFiles/example.dir/circle.cpp.o: vec2.hpp
 
 source/CMakeFiles/example.dir/example.cpp.o: ../external/GL/glext.h
@@ -20,6 +21,7 @@ source/CMakeFiles/example.dir/mat2.cpp.o: mat2.cpp
 source/CMakeFiles/example.dir/mat2.cpp.o: mat2.hpp
 source/CMakeFiles/example.dir/mat2.cpp.o: vec2.hpp
 
+source/CMakeFiles/example.dir/rectangle.cpp.o: color.hpp
 source/CMakeFiles/example.dir/rectangle.cpp.o: rectangle.cpp
 source/CMakeFiles/example.dir/rectangle.cpp.o: rectangle.hpp
 source/CMakeFiles/example.dir/rectangle.cpp.o: vec2.hpp

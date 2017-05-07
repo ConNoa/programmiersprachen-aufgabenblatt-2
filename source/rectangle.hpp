@@ -1,6 +1,7 @@
 #ifndef RECTANGLE_HPP
 #define RECTANGLE_HPP
 #include "vec2.hpp"
+#include "color.hpp"
 
 class Rectangle
 {
@@ -8,6 +9,7 @@ class Rectangle
 
 	Rectangle();
 	Rectangle(Vec2 const& min_in, Vec2 const& max_in);
+	Rectangle(Vec2 const& min_in, Vec2 const& max_in, Color const& color_in);
 
 	float get_min_x() const;
 	float get_min_y() const;
@@ -19,6 +21,8 @@ class Rectangle
 
 	Vec2 min_;
 	Vec2 max_;
+	Color color_;
+
 
 	
 };
