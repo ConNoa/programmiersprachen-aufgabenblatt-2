@@ -227,7 +227,7 @@ TEST_CASE("mat2 operator* soll getestet werden_1")
 	REQUIRE(v.x22 == 11.0f);
 }
 
-TEST_CASE("mat2 operator*= soll getestet werden_2")
+TEST_CASE("mat2 operator*= soll getestet werden_2.")
 {
 	Mat2 v{	2.0f, 4.0f, 
 			1.0f, 3.0f};
