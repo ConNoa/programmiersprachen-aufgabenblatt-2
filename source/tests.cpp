@@ -428,7 +428,25 @@ TEST_CASE("Circle getter-Konstruktor Test_2")
 	REQUIRE(circyli.get_radius() == Approx(1.0f));
 	REQUIRE(circyli.get_x() == Approx(-12.0f));
 	REQUIRE(circyli.get_y() == Approx(91.0f));
+	
 }
+
+TEST_CASE("Circle Umfang Methoden Test_1")
+{
+	Vec2 x{-12.0f, 91.0f};
+	float y = 2.0f;
+	Circle circyli(x, y);
+	REQUIRE(circyli.circumreference() == Approx(12.56637f));
+}
+
+TEST_CASE("Circle Umfang Methoden Test_2")
+{
+	Vec2 x{-12.0f, 91.0f};
+	float y = 1.0f;
+	Circle circyli(x, y);
+	REQUIRE(circyli.circumreference() == Approx(6.28319f));
+}
+
 
 
 

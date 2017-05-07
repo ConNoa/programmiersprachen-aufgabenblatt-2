@@ -11,9 +11,10 @@ class Circle
 
 	
 
-	float  get_radius() const;
-	float  get_x() const;
-	float  get_y() const;
+	float  	get_radius() const;
+	float  	get_x() const;
+	float  	get_y() const;
+	float	circumreference() const;
 
 	private:
 
