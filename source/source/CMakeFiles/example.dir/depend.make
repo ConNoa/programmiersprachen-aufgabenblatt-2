@@ -14,6 +14,7 @@ source/CMakeFiles/example.dir/example.cpp.o: window.hpp
 
 source/CMakeFiles/example.dir/mat2.cpp.o: mat2.cpp
 source/CMakeFiles/example.dir/mat2.cpp.o: mat2.hpp
+source/CMakeFiles/example.dir/mat2.cpp.o: vec2.hpp
 
 source/CMakeFiles/example.dir/vec2.cpp.o: vec2.cpp
 source/CMakeFiles/example.dir/vec2.cpp.o: vec2.hpp

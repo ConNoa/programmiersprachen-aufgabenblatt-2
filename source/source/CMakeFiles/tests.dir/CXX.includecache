@@ -229,8 +229,14 @@ assert.h
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/mat2.cpp
 mat2.hpp
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/mat2.hpp
+iostream
+-
+cmath
+-
 
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/mat2.hpp
+vec2.hpp
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
 
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/tests.cpp
 catch.hpp

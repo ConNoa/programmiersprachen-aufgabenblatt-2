@@ -216,7 +216,6 @@ TEST_CASE("mat2 operator* soll getestet werden_1")
 {
 	Mat2 v{	2.0f, 4.0f, 
 			1.0f, 3.0f};
-
 	Mat2 z{	3.0f, 5.0f, 
 			2.0f, 2.0f};
 	v=v*z;
@@ -231,7 +230,6 @@ TEST_CASE("mat2 operator*= soll getestet werden_1")
 {
 	Mat2 v{	2.0f, 4.0f, 
 			1.0f, 3.0f};
-
 	Mat2 z{	3.0f, 5.0f, 
 			2.0f, 2.0f};
 	v*=z;
@@ -245,7 +243,6 @@ TEST_CASE("mat2 operator* soll getestet werden_2")
 {
 	Mat2 v{	30.0f, 50.0f, 
 			25.0f, 40.0f};
-
 	Mat2 z{	2.0f, 3.0f, 
 			1.0f, 1.0f};
 	v=v*z;
@@ -259,18 +256,134 @@ TEST_CASE("mat2 operator*= soll getestet werden_2")
 {
 	Mat2 v{	30.0f, 50.0f, 
 			25.0f, 40.0f};
-
 	Mat2 z{	2.0f, 3.0f, 
 			1.0f, 1.0f};
 	v*=z;
-	
 	REQUIRE(v.x11 == 110.0f);
 	REQUIRE(v.x12 == 140.0f);
 	REQUIRE(v.x21 == 90.0f);
 	REQUIRE(v.x22 == 115.0f);
 }
 
+TEST_CASE("mat2 determinante soll getestet werden_1")
+{
+	Mat2 v{	3.0f, 5.0f, 
+			2.0f, 4.0f};
+	Mat2 z{	2.0f, 3.0f, 
+			1.0f, 1.0f};
+	Mat2 y{	5.0f, 4.0f, 
+			6.0f, 5.0f};
 
+
+	
+	REQUIRE(v.det() == 2.0f);
+	REQUIRE(z.det() == -1.0f);
+	REQUIRE(y.det() == 1.0f);
+
+}
+
+TEST_CASE("mat2 inverses soll getestet werden_1")
+{
+	Mat2 v{	1.0f, 12.0f, 
+			5.0f, 4.0f};
+	v= inverse(v);
+	REQUIRE(v.x11 == Approx(-0.07143f));
+	REQUIRE(v.x12 == Approx(0.21429f));
+	REQUIRE(v.x21 == Approx(0.08929f));
+	REQUIRE(v.x22 == Approx(-0.01786f));
+
+}
+TEST_CASE("mat2 inverses soll getestet werden_2")
+{
+	Mat2 v{	6.0f, 2.0f, 
+			4.0f, 8.0f};
+	v= inverse(v);
+	REQUIRE(v.x11 == Approx(0.2f));
+	REQUIRE(v.x12 == Approx(-0.05f));
+	REQUIRE(v.x21 == Approx(-0.1f));
+	REQUIRE(v.x22 == Approx(0.15f));
+
+}
+
+TEST_CASE("mat2 mit vec2 multipilzieren_1")
+{
+	Mat2 m{	6.0f, 2.0f, 
+			4.0f, 8.0f};
+	Vec2 z{-2.0f, 9.0f};
+
+	z= m*z;
+	REQUIRE(z.x == Approx(6.0f));
+	REQUIRE(z.y == Approx(64.0f));
+}
+
+
+TEST_CASE("mat2 mit vec2 multipilzieren_2")
+{
+	Mat2 m{	9.0f, 1.0f, 
+			2.0f, 3.0f};
+	Vec2 z{2.0f, 9.0f};
+
+	z= m*z;
+	REQUIRE(z.x == Approx(27.0f));
+	REQUIRE(z.y == Approx(31.0f));
+}
+
+TEST_CASE("mat2 mit vec2 multipilzieren_1_falschherum")
+{
+	Mat2 m{	6.0f, 2.0f, 
+			4.0f, 8.0f};
+	Vec2 z{-2.0f, 9.0f};
+
+	z= z*m;
+	REQUIRE(z.x == Approx(6.0f));
+	REQUIRE(z.y == Approx(64.0f));
+}
+
+
+TEST_CASE("mat2 mit vec2 multipilzieren_2_falschherum")
+{
+	Mat2 m{	9.0f, 1.0f, 
+			2.0f, 3.0f};
+	Vec2 z{2.0f, 9.0f};
+
+	z= z*m;
+	REQUIRE(z.x == Approx(27.0f));
+	REQUIRE(z.y == Approx(31.0f));
+}
+
+TEST_CASE("mat2 transponieren soll getestet werden_1")
+{
+	Mat2 v{	1.0f, 12.0f, 
+			5.0f, 4.0f};
+	v= transpose(v);
+	REQUIRE(v.x11 == Approx(1.0f));
+	REQUIRE(v.x12 == Approx(5.0f));
+	REQUIRE(v.x21 == Approx(12.0f));
+	REQUIRE(v.x22 == Approx(4.0f));
+
+}
+TEST_CASE("mat2 transponieren soll getestet werden_2")
+{
+	Mat2 v{	6.0f, 2.0f, 
+			4.0f, 8.0f};
+	v= transpose(v);
+	REQUIRE(v.x11 == Approx(6.0f));
+	REQUIRE(v.x12 == Approx(4.0f));
+	REQUIRE(v.x21 == Approx(2.0f));
+	REQUIRE(v.x22 == Approx(8.0f));
+
+}
+
+TEST_CASE("mat2 make rotation soll getestet werden")
+{
+	float p = 1;
+
+	Mat2 m2 = make_rotation_mat2(p);
+	REQUIRE(m2.x11 == Approx(0.5403f));
+	REQUIRE(m2.x12 == Approx(-0.84147f));
+	REQUIRE(m2.x21 == Approx(0.84147f));
+	REQUIRE(m2.x22 == Approx(0.5403f));
+}
 
 int main(int argc, char *argv[])
 {
