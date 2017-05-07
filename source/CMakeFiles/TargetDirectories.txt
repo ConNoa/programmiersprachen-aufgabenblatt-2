@@ -1,0 +1,12 @@
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles/rebuild_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles/edit_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles/nanovg.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/external/glfw-3.2.1/CMakeFiles/rebuild_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/external/glfw-3.2.1/CMakeFiles/edit_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/external/glfw-3.2.1/src/CMakeFiles/rebuild_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/external/glfw-3.2.1/src/CMakeFiles/edit_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/external/glfw-3.2.1/src/CMakeFiles/glfw.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/source/CMakeFiles/rebuild_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/source/CMakeFiles/edit_cache.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/source/CMakeFiles/tests.dir
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/source/CMakeFiles/example.dir

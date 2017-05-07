@@ -1,6 +1,8 @@
 #define CATCH_CONFIG_RUNNER
 #include <catch.hpp>
 #include "vec2.hpp"
+#include "mat2.hpp"
+
 
 
 TEST_CASE("it should initialize the members with 0", "[constructor]")
@@ -86,10 +88,10 @@ TEST_CASE("operator /= soll getestet werden_1")
 TEST_CASE("operator /= soll getestet werden_2")
 {
 	Vec2 v{35.0f, -14.0f};
-	v /= 7.0f;
+	v /= 0.0f;
 
-	REQUIRE(v.x == 5.0f);
-	REQUIRE(v.y == -2.0f);
+	REQUIRE(v.x == 35.0f);
+	REQUIRE(v.y == -14.0f);
 }
 
 
@@ -208,6 +210,39 @@ TEST_CASE("operator * soll getestet werden mit floats vorne_2")
 	REQUIRE(z.x == -66.0f);
 	REQUIRE(z.y == 33.0f);
 }
+
+// Aufgabe 2.5 mat2
+TEST_CASE("mat2 operator* soll getestet werden_1")
+{
+	Mat2 v{	2.0f, 4.0f, 
+			1.0f, 3.0f};
+
+	Mat2 z{	3.0f, 5.0f, 
+			2.0f, 2.0f};
+	v=v*z;
+	
+	REQUIRE(v.x11 == 14.0f);
+	REQUIRE(v.x12 == 18.0f);
+	REQUIRE(v.x21 == 9.0f);
+	REQUIRE(v.x22 == 11.0f);
+}
+
+TEST_CASE("mat2 operator*= soll getestet werden_2")
+{
+	Mat2 v{	2.0f, 4.0f, 
+			1.0f, 3.0f};
+
+	Mat2 z{	3.0f, 5.0f, 
+			2.0f, 2.0f};
+	v*=z;
+	
+	REQUIRE(v.x11 == 14.0f);
+	REQUIRE(v.x12 == 18.0f);
+	REQUIRE(v.x21 == 9.0f);
+	REQUIRE(v.x22 == 11.0f);
+}
+
+
 
 int main(int argc, char *argv[])
 {
