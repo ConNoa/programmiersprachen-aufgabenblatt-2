@@ -447,6 +447,22 @@ TEST_CASE("Circle Umfang Methoden Test_2")
 	REQUIRE(circyli.circumreference() == Approx(6.28319f));
 }
 
+TEST_CASE("Rectangle Umfang Methoden Test_1")
+{
+	Vec2 z{0.0f, 0.0f};
+	Vec2 y{10.0f, 10.0f};
+	Rectangle rechteck(z, y);
+	REQUIRE(rechteck.circumreference() == Approx(40.0f));
+}
+
+TEST_CASE("Rectangle Umfang Methoden Test_2")
+{
+	Vec2 z{5.0f, 5.0f};
+	Vec2 y{50.0f, 50.0f};
+	Rectangle rechteck(z, y);
+	REQUIRE(rechteck.circumreference() == Approx(180.0f));
+}
+
 
 
 

@@ -13,6 +13,7 @@ class Rectangle
 	float get_min_y() const;
 	float get_max_x() const;
 	float get_max_y() const;
+	float circumreference() const;
 
 	private: 
 

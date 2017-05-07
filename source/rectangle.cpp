@@ -1,5 +1,5 @@
 #include "rectangle.hpp"
-
+#include <cmath>
 
 
 Rectangle::Rectangle(Vec2 const& min_in, Vec2 const& max_in)
@@ -25,4 +25,10 @@ Rectangle::Rectangle(Vec2 const& min_in, Vec2 const& max_in)
 	float  Rectangle::get_max_y() const
 	{
 		return max_.y;
+	}
+
+	float	Rectangle::circumreference() const
+	{
+		
+		return ((2*(max_.x-min_.x))+(2*(max_.y-min_.y)));
 	}
