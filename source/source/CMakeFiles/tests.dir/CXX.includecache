@@ -237,6 +237,8 @@ vec2.hpp
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
 color.hpp
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/color.hpp
+window.hpp
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/window.hpp
 
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/color.hpp
 
@@ -263,6 +265,10 @@ vec2.hpp
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
 color.hpp
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/color.hpp
+window.hpp
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/window.hpp
+mat2.hpp
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/mat2.hpp
 
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/tests.cpp
 catch.hpp
@@ -283,4 +289,12 @@ iostream
 -
 
 /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
+
+/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/window.hpp
+utility
+-
+array
+-
+string
+-
 

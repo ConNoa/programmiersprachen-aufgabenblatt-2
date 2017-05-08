@@ -193,10 +193,11 @@ source/preinstall:
 # Target rules for target source/CMakeFiles/tests.dir
 
 # All Build rule for target.
-source/CMakeFiles/tests.dir/all:
+source/CMakeFiles/tests.dir/all: CMakeFiles/nanovg.dir/all
+source/CMakeFiles/tests.dir/all: external/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/depend
 	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles --progress-num=25,26,27,28,29,30 "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles --progress-num= "Built target tests"
 .PHONY : source/CMakeFiles/tests.dir/all
 
 # Include target in all.
@@ -206,7 +207,7 @@ all: source/CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 source/CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source/CMakeFiles 0
 .PHONY : source/CMakeFiles/tests.dir/rule

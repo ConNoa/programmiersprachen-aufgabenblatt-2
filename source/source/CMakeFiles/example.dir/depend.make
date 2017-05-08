@@ -10,6 +10,7 @@ source/CMakeFiles/example.dir/circle.cpp.o: circle.cpp
 source/CMakeFiles/example.dir/circle.cpp.o: circle.hpp
 source/CMakeFiles/example.dir/circle.cpp.o: color.hpp
 source/CMakeFiles/example.dir/circle.cpp.o: vec2.hpp
+source/CMakeFiles/example.dir/circle.cpp.o: window.hpp
 
 source/CMakeFiles/example.dir/example.cpp.o: ../external/GL/glext.h
 source/CMakeFiles/example.dir/example.cpp.o: ../external/glfw-3.2.1/include/GLFW/glfw3.h
@@ -25,6 +26,7 @@ source/CMakeFiles/example.dir/rectangle.cpp.o: color.hpp
 source/CMakeFiles/example.dir/rectangle.cpp.o: rectangle.cpp
 source/CMakeFiles/example.dir/rectangle.cpp.o: rectangle.hpp
 source/CMakeFiles/example.dir/rectangle.cpp.o: vec2.hpp
+source/CMakeFiles/example.dir/rectangle.cpp.o: window.hpp
 
 source/CMakeFiles/example.dir/vec2.cpp.o: vec2.cpp
 source/CMakeFiles/example.dir/vec2.cpp.o: vec2.hpp

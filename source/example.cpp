@@ -3,6 +3,8 @@
 #include <utility>
 #include <cmath>
 #include "vec2.hpp"
+#include "rectangle.hpp"
+#include "circle.hpp"
 
 int main(int argc, char* argv[])
 {
@@ -37,6 +39,19 @@ int main(int argc, char* argv[])
           m.first, m.second, // to
           1.0,0.0,0.0);
     }
+
+    //Zeichnen vom Rechteck
+    Vec2 min{50.0f, 50.0f};
+    Vec2 max{200.0f, 200.0f};
+    Color col{0.0f, 0.0f, 0.0f};
+    Rectangle recht(min, max, col);
+    recht.draw_rectangle(win);
+
+    // Zeichnen des Kreises
+    Vec2 kreismittelpunkt{300.0f, 300.0f};
+    Circle kreis(kreismittelpunkt, 150.0f);
+    kreis.draw_circle(win);
+
 
     win.draw_line(0, m.second, 10, m.second, 0.0, 0.0, 0.0);
     win.draw_line(win.window_size().second - 10, m.second, win.window_size().second, m.second, 0.0, 0.0, 0.0);

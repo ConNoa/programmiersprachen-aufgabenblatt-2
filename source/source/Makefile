@@ -146,7 +146,6 @@ circle.o: circle.cpp.o
 
 # target to build an object file
 circle.cpp.o:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.o
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.o
 .PHONY : circle.cpp.o
 
@@ -156,7 +155,6 @@ circle.i: circle.cpp.i
 
 # target to preprocess a source file
 circle.cpp.i:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.i
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.i
 .PHONY : circle.cpp.i
 
@@ -166,7 +164,6 @@ circle.s: circle.cpp.s
 
 # target to generate assembly for a file
 circle.cpp.s:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.s
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.s
 .PHONY : circle.cpp.s
 
@@ -230,7 +227,6 @@ mat2.o: mat2.cpp.o
 
 # target to build an object file
 mat2.cpp.o:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.o
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.o
 .PHONY : mat2.cpp.o
 
@@ -240,7 +236,6 @@ mat2.i: mat2.cpp.i
 
 # target to preprocess a source file
 mat2.cpp.i:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.i
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.i
 .PHONY : mat2.cpp.i
 
@@ -250,7 +245,6 @@ mat2.s: mat2.cpp.s
 
 # target to generate assembly for a file
 mat2.cpp.s:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.s
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.s
 .PHONY : mat2.cpp.s
 
@@ -260,7 +254,6 @@ rectangle.o: rectangle.cpp.o
 
 # target to build an object file
 rectangle.cpp.o:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.o
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.o
 .PHONY : rectangle.cpp.o
 
@@ -270,7 +263,6 @@ rectangle.i: rectangle.cpp.i
 
 # target to preprocess a source file
 rectangle.cpp.i:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.i
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.i
 .PHONY : rectangle.cpp.i
 
@@ -280,36 +272,8 @@ rectangle.s: rectangle.cpp.s
 
 # target to generate assembly for a file
 rectangle.cpp.s:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.s
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.s
 .PHONY : rectangle.cpp.s
-
-tests.o: tests.cpp.o
-
-.PHONY : tests.o
-
-# target to build an object file
-tests.cpp.o:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.o
-.PHONY : tests.cpp.o
-
-tests.i: tests.cpp.i
-
-.PHONY : tests.i
-
-# target to preprocess a source file
-tests.cpp.i:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.i
-.PHONY : tests.cpp.i
-
-tests.s: tests.cpp.s
-
-.PHONY : tests.s
-
-# target to generate assembly for a file
-tests.cpp.s:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.s
-.PHONY : tests.cpp.s
 
 vec2.o: vec2.cpp.o
 
@@ -317,7 +281,6 @@ vec2.o: vec2.cpp.o
 
 # target to build an object file
 vec2.cpp.o:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.o
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.o
 .PHONY : vec2.cpp.o
 
@@ -327,7 +290,6 @@ vec2.i: vec2.cpp.i
 
 # target to preprocess a source file
 vec2.cpp.i:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.i
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.i
 .PHONY : vec2.cpp.i
 
@@ -337,7 +299,6 @@ vec2.s: vec2.cpp.s
 
 # target to generate assembly for a file
 vec2.cpp.s:
-	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.s
 	cd /Users/Blueshift/Desktop/Programmiersprachen/programmiersprachen-aufgabenblatt-2/source && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.s
 .PHONY : vec2.cpp.s
 
@@ -393,9 +354,6 @@ help:
 	@echo "... rectangle.o"
 	@echo "... rectangle.i"
 	@echo "... rectangle.s"
-	@echo "... tests.o"
-	@echo "... tests.i"
-	@echo "... tests.s"
 	@echo "... vec2.o"
 	@echo "... vec2.i"
 	@echo "... vec2.s"
