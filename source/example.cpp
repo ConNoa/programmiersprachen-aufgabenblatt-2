@@ -40,18 +40,35 @@ int main(int argc, char* argv[])
           1.0,0.0,0.0);
     }
 
-    //Zeichnen vom Rechteck
+    //.................................................
+    //.................................................
+
+    //Zeichnen vom Rechteck schwarz
+    Vec2 mins{400.0f, 200.0f};
+    Vec2 maxs{700.0f, 500.0f};
+    Rectangle rechts(mins, maxs);
+    rechts.draw_rectangle(win);
+
+    // Zeichnen des Kreises schwarz
+    Vec2 kreismittelpunkts{350.0f, 350.0f};
+    Circle kreiss(kreismittelpunkts, 220.0f);
+    kreiss.draw_circle(win);
+
+    //Zeichnen vom Rechteck farbig
     Vec2 min{50.0f, 50.0f};
     Vec2 max{200.0f, 200.0f};
-    Color col{0.0f, 0.0f, 0.0f};
-    Rectangle recht(min, max, col);
-    recht.draw_rectangle(win);
+    Color red{1.0f, 0.0f, 0.0f};
+    Color lila{1.0f, 0.0f, 1.0f};
+    Rectangle recht(min, max);
+    recht.draw_rectangle(win, lila);
 
-    // Zeichnen des Kreises
+    // Zeichnen des Kreises farbig
     Vec2 kreismittelpunkt{300.0f, 300.0f};
     Circle kreis(kreismittelpunkt, 150.0f);
-    kreis.draw_circle(win);
+    kreis.draw_circle(win, red);
 
+    //.................................................
+    //.................................................
 
     win.draw_line(0, m.second, 10, m.second, 0.0, 0.0, 0.0);
     win.draw_line(win.window_size().second - 10, m.second, win.window_size().second, m.second, 0.0, 0.0, 0.0);
